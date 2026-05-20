@@ -16,6 +16,7 @@ import {
 } from "lucide-react";
 import HeroVisual from "./HeroVisual";
 import heroImg from "@/assets/login-hero.jpg";
+import logo from "@/assets/logo.jpg";
 
 const cities = [
   { code: "DXB", label: "Dubai" },
@@ -90,7 +91,7 @@ export default function LoginPage() {
               B2B Portal
             </p>
           </div> */}
-          <img src="/src/assets/logo.jpg" className="w-25" alt="logo" />
+          <img src={logo} alt="logo" className="w-45"/>
         </div>
         <div className="flex items-center gap-3">
           <span className="hidden items-center gap-1.5 rounded-full border border-border/70 bg-white/40 px-3 py-1 text-[11px] font-medium text-muted-foreground backdrop-blur-md md:inline-flex">
