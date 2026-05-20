@@ -128,7 +128,7 @@ export default function LoginPage() {
 
           {/* Overlay content */}
           <div className="absolute inset-0 flex flex-col justify-between p-10">
-            <motion.div
+            {/* <motion.div
               initial={{ opacity: 0, y: -12 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3, duration: 0.6 }}
@@ -136,10 +136,10 @@ export default function LoginPage() {
             >
               <Sparkles className="h-3.5 w-3.5 text-[color:var(--neon-cyan)]" />
               AI-powered fares engine
-            </motion.div>
+            </motion.div> */}
 
             <div className="space-y-8">
-              <motion.div
+              {/* <motion.div
                 initial={{ opacity: 0, y: 24 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.5, duration: 0.8 }}
@@ -154,9 +154,9 @@ export default function LoginPage() {
                 <p className="mt-4 max-w-md text-sm text-white/70">
                   Live inventory across 900+ airlines, 1.2M hotels and instant ticketing — all from one beautifully fast B2B console.
                 </p>
-              </motion.div>
+              </motion.div> */}
 
-              <motion.div
+              {/* <motion.div
                 initial={{ opacity: 0, y: 24 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.7, duration: 0.8 }}
@@ -166,9 +166,9 @@ export default function LoginPage() {
                 <CityClock tz="Europe/London" code="LHR" label="London" />
                 <CityClock tz="America/New_York" code="JFK" label="New York" />
                 <CityClock tz="Asia/Singapore" code="SIN" label="Singapore" />
-              </motion.div>
+              </motion.div> */}
 
-              <motion.div
+              {/* <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.9, duration: 0.7 }}
@@ -187,7 +187,7 @@ export default function LoginPage() {
                     <p className="mt-0.5 text-lg font-semibold text-white">{s.v}</p>
                   </div>
                 ))}
-              </motion.div>
+              </motion.div> */}
             </div>
           </div>
         </motion.div>
@@ -205,10 +205,10 @@ export default function LoginPage() {
           >
             <div className="mb-7 flex items-center justify-between">
               <div className="flex items-center gap-2">
-                <div className="grid h-9 w-9 place-items-center rounded-xl bg-gradient-brand">
+                {/* <div className="grid h-9 w-9 place-items-center rounded-xl bg-gradient-brand">
                   <Plane className="h-4 w-4 text-white" strokeWidth={2.5} />
-                </div>
-                <span className="text-sm font-semibold tracking-tight">Sondhi Travels</span>
+                </div> */}
+                {/* <span className="text-sm font-semibold tracking-tight">Sondhi Travels</span> */}
               </div>
               <span className="rounded-full bg-foreground/5 px-2.5 py-1 text-[10px] font-medium uppercase tracking-[0.18em] text-muted-foreground">
                 Agent login
@@ -307,16 +307,16 @@ export default function LoginPage() {
                 )}
               </motion.button>
 
-              <div className="relative my-5 flex items-center gap-3 text-[11px] uppercase tracking-[0.2em] text-muted-foreground">
+              {/* <div className="relative my-5 flex items-center gap-3 text-[11px] uppercase tracking-[0.2em] text-muted-foreground">
                 <span className="h-px flex-1 bg-border" />
                 or continue with
                 <span className="h-px flex-1 bg-border" />
-              </div>
+              </div> */}
 
-              <div className="grid grid-cols-2 gap-3">
+              {/* <div className="grid grid-cols-2 gap-3">
                 <SocialButton label="Google" provider="google" />
                 <SocialButton label="Microsoft" provider="microsoft" />
-              </div>
+              </div> */}
             </form>
 
             <p className="mt-7 text-center text-xs text-muted-foreground">
