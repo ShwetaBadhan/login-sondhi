@@ -78,7 +78,7 @@ export default function LoginPage() {
       {/* Top bar */}
       <header className="relative z-20 flex items-center justify-between px-6 py-5 md:px-10">
         <div className="flex items-center gap-2.5">
-          <div className="relative grid h-9 w-9 place-items-center rounded-xl bg-gradient-brand shadow-glow">
+          {/* <div className="relative grid h-9 w-9 place-items-center rounded-xl bg-gradient-brand shadow-glow">
             <Plane className="h-4 w-4 text-white" strokeWidth={2.5} />
             <span className="absolute inset-0 animate-pulse-glow rounded-xl bg-gradient-brand opacity-40 blur-md" />
           </div>
@@ -89,7 +89,8 @@ export default function LoginPage() {
             <p className="text-[10px] uppercase tracking-[0.22em] text-muted-foreground">
               B2B Portal
             </p>
-          </div>
+          </div> */}
+          <img src="/src/assets/logo.jpg" className="w-25" alt="logo" />
         </div>
         <div className="flex items-center gap-3">
           <span className="hidden items-center gap-1.5 rounded-full border border-border/70 bg-white/40 px-3 py-1 text-[11px] font-medium text-muted-foreground backdrop-blur-md md:inline-flex">
